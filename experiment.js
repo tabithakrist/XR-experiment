@@ -73,7 +73,7 @@ function init() {
         new THREE.BoxBufferGeometry(1,1,1),
         new THREE.MeshLambertMaterial({colo:'green'})
     );
-    cube.position.set(-4, 1.5, -15);
+    cube.position.set(-8, 3.5, -5);
     scene.add(cube1);
     arObjects.push(cube1);
 
